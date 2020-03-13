@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: forward-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: websocket_route
+          uri: ws://{{url}}
+          predicates:
+            - Path=/websocket/**
+server:
+  port: 9011

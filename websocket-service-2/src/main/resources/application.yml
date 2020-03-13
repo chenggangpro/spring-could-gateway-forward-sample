@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: websocket-service-2
+server:
+  port: 9002

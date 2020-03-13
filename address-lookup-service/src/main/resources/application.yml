@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: address-lookup-service
+server:
+  port: 9010

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: websocket-service-1
+server:
+  port: 9001
